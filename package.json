@@ -1,0 +1,22 @@
+{
+  "name": "dblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sync": "DEBUG=dblog:* node sync.js",
+    "test": "DEBUG=dblog:* node test.js"
+  },
+  "author": "Miwoes",
+  "license": "ISC",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "dottie": "^2.0.2",
+    "lodash": "^4.17.20",
+    "md5": "^2.3.0",
+    "mysql": "^2.18.1",
+    "nano": "^8.2.2",
+    "sequelize": "^6.3.5",
+    "uuid": "^8.3.1"
+  }
+}
